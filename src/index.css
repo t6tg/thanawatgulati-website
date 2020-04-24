@@ -3,7 +3,7 @@
 html,
 body {
   /* #ff59c7; */
-  background-image: url("http://api.thumbr.it/whitenoise-361x370.png?background=000000ff&noise=626262&density=11&opacity=31");
+  background-image: url("./asset/bg.png");
   font-size: 14px;
   font-family: "Manrope", sans-serif;
   color: #f6a6b9;
