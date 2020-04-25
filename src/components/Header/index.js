@@ -47,7 +47,7 @@ export function Header() {
             contact@thanawatgulati.com
           </a>
           <br />
-          <b>My favorite Band : </b> BlackPink - [ Jennie ]
+          <b>My favorite Band : </b> BlackPink
           <br />
           <br />
           <a href="https://fb.com/mjamesthanawat" title="Facebook">
