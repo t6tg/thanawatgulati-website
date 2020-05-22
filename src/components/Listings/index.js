@@ -9,7 +9,7 @@ const Repos = async () =>
 
 export default function Listings() {
   const { data, error, isLoading } = useAsync({ promiseFn: Repos });
-  if (isLoading) return "Loading...";
+  if (isLoading) return (<h3 style={{ color: "#f6a6b9" }}>Loading...</h3>);
   if (error) return `Something went wrong: ${error.message}`;
   if (data)
     return (

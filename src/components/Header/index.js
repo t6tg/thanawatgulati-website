@@ -12,7 +12,7 @@ import Listings from "../Listings";
 const LOGO =
   "https://fontmeme.com/permalink/200423/5fdc1ddbe586698a21e5bc3ea23bb001.png";
 const PROFILE =
-  "https://scontent.fbkk12-4.fna.fbcdn.net/v/t1.0-9/p960x960/53469166_1155434631284840_5458282819031662592_o.jpg?_nc_cat=110&_nc_sid=85a577&_nc_oc=AQlVwatKsdvUwmJtqoZ3uRfWAGn_5OCvXCVtKp_cLhkvACp8PxmgZ9rRh_t-IN6ke_4&_nc_ht=scontent.fbkk12-4.fna&_nc_tp=6&oh=6f4d007daa451787095859a8f91965f1&oe=5EC75DF4";
+  "/profile.jpg";
 
 export function Header() {
   return (
@@ -67,10 +67,14 @@ export function Header() {
           </a>
           <a href="https://twitter.com/mjamesvevo" title="Twitter">
             <TwitterOutlined style={{ fontSize: "30px", padding: "10px" }} />
-          </a>
+          </a> <br /><br />
+          <button onClick={() => {
+            window.location.href = 'https://blog.thanawatgulati.com'
+          }} style={{ width: "100px", height: "30px", borderRadius: "30px", border: "solid 3px #f6a6b9", backgroundColor: "#000", cursor: "pointer" }}>Blog</button>
         </div>
       </div>
       <div className="container">
+        <h2 style={{ color: "#f6a6b9" }}>Github Repository</h2>
         <Listings />
       </div>
     </div>
